@@ -1,0 +1,25 @@
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color: bisque;
+    position: sticky;
+    top: 50px;
+}
+.sidebar-wrap{
+    padding: 20px;
+    color: black;
+}
+.sidebar-dash{
+    margin-bottom: 10px;
+}
+.sidebar-title{
+    font-size: 15px;
+}
+.sidebar-list{
+    list-style: none;
+    padding: 5px;
+}
+.sidebar-list-item{
+    padding: 5px;
+    cursor: pointer;
+}
