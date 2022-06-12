@@ -29,6 +29,12 @@
 .sidebar-list-item-active, .sidebar-list-item:hover{
     background-color: #000;
     color: #fff;
+    transition: all 0.5s ease;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
 }
 .sidebar-icon{
     margin-right: 5px;

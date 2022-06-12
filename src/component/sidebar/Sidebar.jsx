@@ -1,4 +1,4 @@
-import { AttachMoney, BarChart, ChatBubbleOutline, DynamicFeed, LineStyle, MailOutline, PermIdentity, Report, Storefront, Timeline, TrendingUp, WorkOutline } from '@material-ui/icons';
+import { AttachMoney, BarChart, ChatBubbleOutline, DynamicFeed, HomeOutlined,  MailOutline, PermIdentity, Report, Storefront, Timeline, TrendingUp, WorkOutline } from '@material-ui/icons';
 import React from 'react';
 import './Sidebar.css';
 
@@ -10,7 +10,7 @@ const Sidebar = () => {
                 <h3 className='sidebar-title'>Dashboard</h3>
                 <ul className='sidebar-list'>
                     <li className='sidebar-list-item-active'>
-                        <LineStyle className='sidebar-icon'/> Home
+                        <HomeOutlined className='sidebar-icon'/> Home
                     </li>
                       <li className='sidebar-list-item'>
                         <Timeline className='sidebar-icon'/>   Analytics
