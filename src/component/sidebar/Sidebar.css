@@ -1,7 +1,7 @@
 .sidebar{
     flex: 1;
     height: calc(100vh - 50px);
-    background-color: bisque;
+    background-color: #F7F7F7;
     position: sticky;
     top: 50px;
 }
@@ -14,6 +14,7 @@
 }
 .sidebar-title{
     font-size: 15px;
+    color: #73777B;
 }
 .sidebar-list{
     list-style: none;
@@ -22,4 +23,14 @@
 .sidebar-list-item{
     padding: 5px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.sidebar-list-item-active, .sidebar-list-item:hover{
+    background-color: #000;
+    color: #fff;
+}
+.sidebar-icon{
+    margin-right: 5px;
+    font-size: 20px !important;
 }

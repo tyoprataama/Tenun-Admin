@@ -15,7 +15,7 @@
 .logo{
     font-weight: bold;
     font-size: 30px;
-    color: #1363DF;
+    color: #000;
     cursor: pointer;
 }
 .right{
@@ -34,7 +34,7 @@
     position: absolute;
     top: -5px;
     right: 0px;
-    background-color: #1363DF;
+    background-color: #000;
     border-radius: 50%;
     color: #fff;
     justify-content: center;
