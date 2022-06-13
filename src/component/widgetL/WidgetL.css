@@ -1,0 +1,50 @@
+.widget-lg{
+    flex: 2;
+    box-shadow: 10px 7px 23px -5px rgba(0, 0, 0, 0.17);
+    -webkit-box-shadow: 10px 7px 23px -5px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 10px 7px 23px -5px rgba(0, 0, 0, 0.17);
+    padding: 20px;
+}
+.widget-lg-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.widget-td-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.widget-lg-btn{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 2px;
+}
+.widget-lg-btn.Approve{
+    background-color: #C1F8CF;
+    color: #519259;
+}
+.widget-lg-btn.Declined{
+    background-color: #FFBED8;
+    color: #FF5D5D;
+}
+.widget-lg-btn.Pending{
+    background-color: #FFE6AB;
+    color: #EC9B3B;
+}
+.widget-lg-table{
+    width: 100%;
+    border-spacing: 20px;
+}
+.widget-lg-th{
+    text-align: left;
+}
+.widget-lg-td{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.widget-lg-date, .widget-lg-amount{
+    font-weight: 300;
+}
