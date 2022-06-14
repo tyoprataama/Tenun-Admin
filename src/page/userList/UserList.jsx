@@ -63,7 +63,7 @@ const UserList = () => {
       <DataGrid
         rows={data}
         columns={columns}
-        pageSize={5}
+        pageSize={10}
         rowsPerPageOptions={[10]}
         checkboxSelection
         disableSelectionOnClick
