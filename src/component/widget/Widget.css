@@ -1,8 +1,8 @@
 .widget-sm{
     flex: 1;
-    box-shadow: 10px 7px 23px -5px rgba(0, 0, 0, 0.17);
-    -webkit-box-shadow: 10px 7px 23px -5px rgba(0, 0, 0, 0.17);
-    -moz-box-shadow: 10px 7px 23px -5px rgba(0, 0, 0, 0.17);
+    box-shadow: 10px 10px 32px -5px rgba(189, 189, 189, 0.25);
+    -webkit-box-shadow: 10px 10px 32px -5px rgba(189, 189, 189, 0.25);
+    -moz-box-shadow: 10px 10px 32px -5px rgba(189, 189, 189, 0.25);
     padding: 20px;
     margin-right: 20px;
 }
@@ -33,6 +33,7 @@
 }
 .widget-sm-user{
     font-weight: 600;
+    margin-left: -30px;
 }
 .user-sm-title{
     font-weight: 300;

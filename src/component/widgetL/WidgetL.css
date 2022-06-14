@@ -1,8 +1,8 @@
 .widget-lg{
     flex: 2;
-    box-shadow: 10px 7px 23px -5px rgba(0, 0, 0, 0.17);
-    -webkit-box-shadow: 10px 7px 23px -5px rgba(0, 0, 0, 0.17);
-    -moz-box-shadow: 10px 7px 23px -5px rgba(0, 0, 0, 0.17);
+    box-shadow: -14px -3px 32px -16px rgba(189, 189, 189, 0.39);
+    -webkit-box-shadow: -14px -3px 32px -16px rgba(189, 189, 189, 0.39);
+    -moz-box-shadow: -14px -3px 32px -16px rgba(189, 189, 189, 0.39);
     padding: 20px;
 }
 .widget-lg-title{
@@ -21,7 +21,7 @@
     border: none;
     border-radius: 2px;
 }
-.widget-lg-btn.Approve{
+.widget-lg-btn.Approved{
     background-color: #C1F8CF;
     color: #519259;
 }

@@ -17,12 +17,12 @@ export default function Charts({title, data, dataKey, grid}) {
         <ResponsiveContainer width='100%' aspect={4 / 1}>
             <LineChart data={data}>
                 < XAxis dataKey = 'name'
-                stroke = '#A760FF' / >
+                stroke = '#000' / >
                 < Line type = 'monotone'
                 dataKey = {
                   dataKey
                 }
-                stroke = '#A760FF' / >
+                stroke = '#A760FF' strokeWidth={3} / >
                 <Tooltip/>
                 {grid && <CartesianGrid stroke='#E0DFDF' strokeDasharray='5 5'/>}
             </LineChart>
