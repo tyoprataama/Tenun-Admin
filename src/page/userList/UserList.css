@@ -1,3 +1,34 @@
 .userlist{
     flex: 4;
 }
+.user-table{
+    display: flex;
+    align-items: center;
+}
+.user-img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.user-btn{
+    border: 1px solid #000;
+    padding: 5px 12px;
+    background-color: #fff;
+    color: #000;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.user-btn:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.user-delete{
+    cursor: pointer;
+}
+.user-delete:hover {
+    color: #F32424;
+    transition: all 0.5s ease;
+}
