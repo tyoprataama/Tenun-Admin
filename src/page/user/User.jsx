@@ -1,4 +1,4 @@
-import { CalendarToday, CloudUploadOutlined, LocationSearching, MailOutline, PermIdentity, PhoneAndroid } from '@material-ui/icons';
+import { CalendarToday, CloudUploadOutlined, LocationOn, MailOutline, PermIdentity, PhoneAndroid } from '@material-ui/icons';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './User.css';
@@ -42,7 +42,7 @@ const User = () => {
               <span className='user-bot-name'>+1 098 765</span>
             </div>
             <div className='user-bot-info'>
-              <LocationSearching className='user-bot-icon'/>
+              <LocationOn className='user-bot-icon'/>
               <span className='user-bot-name'>Anaheim | CA</span>
             </div>
 
