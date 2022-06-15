@@ -1,9 +1,9 @@
 .charts{
     padding: 20px;
     margin: 20px;
-    box-shadow: 10px 7px 23px -5px rgba(0, 0, 0, 0.17);
-    -webkit-box-shadow: 10px 7px 23px -5px rgba(0, 0, 0, 0.17);
-    -moz-box-shadow: 10px 7px 23px -5px rgba(0, 0, 0, 0.17);
+    box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
 }
 .charts-title{
     margin-bottom: 20px;

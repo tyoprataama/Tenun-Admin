@@ -1,0 +1,144 @@
+.user{
+    flex: 4;
+    padding: 20px;
+}
+.user-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-create-btn{
+    padding: 5px 9px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    width: 80px;
+    font-size: 16px;
+}
+.user-create-btn:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.user-container{
+    display: flex;
+    margin-top: 20px;
+}
+.user-show{
+    flex: 1;
+    padding: 20px;
+    padding: 20px;
+    box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+}
+.user-update {
+    flex: 2;
+    padding: 20px;
+    padding: 20px;
+    box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+    margin-left: 20px;
+}
+.user-top{
+    display: flex;
+    align-items: center;
+}
+.user-top-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover ;
+}
+.user-top-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.user-top-username{
+    font-weight: 600;
+}
+.user-top-job{
+    font-weight: 300;
+}
+.user-bot{
+    margin-top: 20px;
+}
+.user-bot-title{
+    font-size: 14px;
+    font-weight: 600;
+    color: #73777b;
+}
+.user-bot-info{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #464647;
+}
+.user-bot-icon{
+    font-size: 16px !important;
+}
+.user-bot-name{
+    margin-left: 10px;
+}
+.user-update-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.user-up-form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.user-up-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.user-update-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.user-update-item>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.user-update-input{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid #bababa;
+}
+.user-update-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.user-update-upload{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-update-icon{
+    cursor: pointer;
+}
+.user-update-btn{
+    cursor: pointer;
+    padding: 5px;
+    font-weight: 600;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+.user-update-btn:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.user-img-title{
+    margin-bottom: -10px;
+}
