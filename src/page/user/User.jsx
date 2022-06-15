@@ -1,5 +1,6 @@
 import { CalendarToday, CloudUploadOutlined, LocationSearching, MailOutline, PermIdentity, PhoneAndroid } from '@material-ui/icons';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './User.css';
 
 const User = () => {
@@ -7,7 +8,9 @@ const User = () => {
     <div className='user'>
       <div className='user-title-container'>
         <h1 className='user-title'>Edit User</h1>
+        <Link to='/newUser'>
         <button className='user-create-btn'>Create</button>
+        </Link>
       </div>
       <div className='user-container'>
         <div className='user-show'>
@@ -27,7 +30,7 @@ const User = () => {
             </div>
             <div className='user-bot-info'>
               <CalendarToday className='user-bot-icon'/>
-              <span className='user-bot-name'>23.3.1995</span>
+              <span className='user-bot-name'>23/3/1995</span>
             </div>
              <span className='user-bot-title'>Contact Details</span>
             <div className='user-bot-info'>
