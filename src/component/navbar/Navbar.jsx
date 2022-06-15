@@ -1,5 +1,6 @@
 import { Language, NotificationsNone, Settings } from '@material-ui/icons';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -7,7 +8,9 @@ const Navbar = () => {
     <div className='navb'>
       <div className='nav-wrap'>
         <div className='left'>
+          <Link to='/' className='link'>
           <span className='logo'>TenunAdmin</span>
+          </Link>
         </div>
         <div className='right'>
           <div className='navb-icon'>
