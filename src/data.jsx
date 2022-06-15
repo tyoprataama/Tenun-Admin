@@ -12,15 +12,15 @@ export const userdata = [{
     },
     {
         name: 'Apr',
-        'Active User': 1200,
+        'Active User': 1500,
     },
     {
         name: 'May',
-        'Active User': 1690,
+        'Active User': 2000,
     },
     {
         name: 'Jun',
-        'Active User': 1990,
+        'Active User': 1590,
     },
     {
         name: 'Jul',
@@ -28,7 +28,7 @@ export const userdata = [{
     },
     {
         name: 'Aug',
-        'Active User': 2390,
+        'Active User': 3090,
     },
     {
         name: 'Sep',
