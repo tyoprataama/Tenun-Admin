@@ -129,3 +129,85 @@ export const UserRows = [{
         amount: 'Rp 538.400'
     },
 ];
+
+export const ProductRows = [{
+        id: 1,
+        name: 'Standard Short Sleeves Shirt - Blooming Green Kawung',
+        img: 'https://i.ibb.co/g3jsXR5/Product2.png',
+        stock: 124,
+        status: 'active',
+        price: 'Rp 771.500'
+    },
+    {
+        id: 2,
+        name: 'Daenerys Targaryen',
+        img: 'https://i.ibb.co/NKfq3QF/Product1.png',
+        stock: 124,
+        status: 'active',
+        price: 'Rp 1.373.000'
+    },
+    {
+        id: 3,
+        name: 'Arya Stark',
+        img: 'https://i.ibb.co/vcDKn2J/Product3.png',
+        stock: 124,
+        status: 'active',
+        price: 'Rp 919.500'
+    },
+    {
+        id: 4,
+        name: 'Cersei Lannister',
+        img: 'https://i.ibb.co/HXRjYY4/Product4.png',
+        stock: 124,
+        status: 'active',
+        price: 'Rp 2.219.200'
+    },
+    {
+        id: 5,
+        name: 'Jaime Lannister',
+        img: 'https://i.ibb.co/RD490DJ/Product5.png',
+        stock: 124,
+        status: 'active',
+        price: 'Rp 1.620.000'
+    },
+    {
+        id: 6,
+        name: 'Tyrion Lannister',
+        img: 'https://i.ibb.co/D7DCW0v/Product6.png',
+        stock: 124,
+        status: 'active',
+        price: 'Rp 812.700'
+    },
+    {
+        id: 7,
+        name: 'Rob Stark',
+        img: 'https://i.ibb.co/BGhzPQN/Product7.png',
+        stock: 124,
+        status: 'active',
+        price: 'Rp 1.025.000'
+    },
+    {
+        id: 8,
+        name: 'Jorah Mormont',
+        img: 'https://i.ibb.co/747gKwP/Product8.png',
+        stock: 124,
+        status: 'active',
+        price: 'Rp 153.900'
+    },
+    {
+        id: 9,
+        name: 'Sansa Stark',
+        img: 'https://i.ibb.co/HXRjYY4/Product4.png',
+        stock: 124,
+        status: 'active',
+        price: 'Rp 949.000'
+    },
+    {
+        id: 10,
+        name: 'Samwell Tarly',
+        img: 'https://i.ibb.co/RD490DJ/Product5.png',
+        stock: 124,
+        status: 'active',
+        price: 'Rp 538.400'
+    },
+];
