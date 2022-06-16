@@ -10,9 +10,11 @@ const Sidebar = () => {
             <div className='sidebar-dash'>
                 <h3 className='sidebar-title'>Dashboard</h3>
                 <ul className='sidebar-list'>
-                    <li className='sidebar-list-item-active'>
+                      <Link to='/' className='link'>
+                    <li className='sidebar-list-item'>
                         <HomeOutlined className='sidebar-icon'/> Home
                     </li>
+                      </Link>
                       <li className='sidebar-list-item'>
                         <Timeline className='sidebar-icon'/>   Analytics
                     </li>

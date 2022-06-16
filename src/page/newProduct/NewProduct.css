@@ -1,0 +1,8 @@
+.newproduct{
+    flex: 4;
+}
+.newproduct-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
