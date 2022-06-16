@@ -1,0 +1,119 @@
+.product{
+    flex: 4;
+    padding: 20px;
+}
+.product-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-add-btn{
+    width: 80px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.product-add-btn:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.product-top{
+    display: flex;
+}
+.product-top-left, .product-top-right{
+    flex: 1;
+}
+.product-top-right{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+}
+.product-info-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.product-top-info{
+    display: flex;
+    align-items: center;
+}
+.product-name{
+    font-weight: 600;
+}
+.product-bot-info{
+    margin-top: 10px;
+}
+.product-info-bot{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+.product-value{
+    font-weight: 300;
+}
+.product-bottom {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 3px 0px 26px 1px rgba(0, 0, 0, 0.09);
+}
+.form-product{
+    display: flex;
+    justify-content: space-between;
+}
+.prod-up-icon{
+    cursor: pointer;
+}
+.product-form-left{
+    display: flex;
+    flex-direction: column;
+}
+.product-form-left>label{
+    margin-bottom: 10px;
+}
+.product-form-left>input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid #000;
+}
+.product-form-left>select{
+    margin-bottom: 10px;
+}
+.product-up-img{
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.product-form-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-upload{
+    display: flex;
+    align-items: center;
+}
+.product-up-btn{
+    padding: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+}
+.product-up-btn:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.5s ease;
+}

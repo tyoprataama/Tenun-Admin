@@ -7,6 +7,7 @@ import UserList from './page/userList/UserList';
 import User from './page/user/User';
 import NewUser from './page/newUser/NewUser';
 import ProductList from './page/productList/ProductList';
+import Product from './page/product/Product';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
             <ProductList/>
           </Route>
           <Route path='/product/:productId'>
-            <NewUser/>
+            <Product/>
           </Route>
           <Route path='/newproduct'>
             <NewUser/>

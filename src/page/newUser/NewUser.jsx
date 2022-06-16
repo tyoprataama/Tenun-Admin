@@ -46,7 +46,9 @@ const NewUser = () => {
                 </select>
             </div>
         </form>
+        <div className='btn-wrap'>
             <button className='newuser-btn'>Create</button>
+        </div>
     </div>
   )
 }

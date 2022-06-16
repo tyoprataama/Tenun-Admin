@@ -211,3 +211,29 @@ export const ProductRows = [{
         price: 'Rp 538.400'
     },
 ];
+
+export const productdata = [{
+        name: 'Jan',
+        'Sales': 100,
+    },
+    {
+        name: 'Feb',
+        'Sales': 300,
+    },
+    {
+        name: 'Mar',
+        'Sales': 900,
+    },
+    {
+        name: 'Apr',
+        'Sales': 1500,
+    },
+    {
+        name: 'May',
+        'Sales': 2000,
+    },
+    {
+        name: 'Jun',
+        'Sales': 1590,
+    },
+];

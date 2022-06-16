@@ -4,6 +4,7 @@
 .newuser-form{
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
 }
 .newuser-form-item{
     width: 400px;
@@ -46,4 +47,7 @@
     background-color: #000;
     color: #fff;
     transition: all 0.5s ease;
+}
+.btn-wrap{
+    padding: 20px;
 }
